@@ -8,6 +8,12 @@ let arr = [
   'cocinar',
   'escribir'
 ]
+let libroFav = {
+  titulo: 'Ami, el niño de las estrellas',
+  autor: 'Enrique Barrios',
+  fecha: '1986',
+  url: 'https://es.wikipedia.org/wiki/Ami_(trilog%C3%ADa)',
+}
 let birthday = 'Nací el '
 birthday = birthday.concat(07)
 birthday = birthday.concat(' de ')
@@ -26,3 +32,8 @@ function miActividadFavorita () {
   console.log(arr[2])
 }
 miActividadFavorita()
+
+function miLibroFavorito () {
+  console.log(libroFav)
+}
+miLibroFavorito()
